@@ -8,3 +8,7 @@ Template repository for undergraduate research students to organize profiles, CV
 - [Computational Biology Lab](https://github.com/gregconradismith/computational-biology-lab)
 - [Cellular Biophysics and Modeling](https://gregconradismith.github.io/cellular-biophysics-and-modeling/)
 - [Receptor Modeling Jupyter Book](https://gregconradismith.github.io/receptor-modeling-jupyter-book/intro.html)
+
+## Codex Coordination
+
+Codex session state is tracked in `.codex/handoff.md`; durable decisions and task history may also appear in `.codex/` when useful.
