@@ -1,22 +1,16 @@
 # Codex Handoff
 
-Date: 2026-06-18
+Date: 2026-06-21
 
 Repo: `reu`
 
 Branch: `main`
 
-Current Git status before this handoff-doc pass:
+Current Git status after the 2026-06-21 migration readiness fetch and before this handoff edit:
 
 ```bash
 ## main...origin/main
-?? .DS_Store
-?? profile/.DS_Store
-?? projects/.DS_Store
 ```
-
-Those `.DS_Store` files are local macOS noise. This pass adds `.DS_Store` and
-`._*` to `.gitignore`; it does not delete local files.
 
 ## Repository Role
 
@@ -50,6 +44,18 @@ Check whitespace in a scoped diff:
 git diff --check
 ```
 
+## Migration Readiness Snapshot
+
+- Checked on 2026-06-21 before moving computers.
+- Non-interactive `git fetch --all --prune` completed successfully.
+- Root `README.md` points to `.codex/handoff.md` when a root README exists.
+
+Pre-edit Git state after fetch:
+
+```bash
+## main...origin/main
+```
+
 ## Notes For The Next Codex
 
 - Keep wording student-facing, concrete, and mentor-safe.
@@ -57,5 +63,5 @@ git diff --check
   unpublished sensitive material, or copyrighted PDFs without explicit
   direction.
 - Prefer small Markdown/documentation improvements and reusable templates.
-- After adding or updating `AGENTS.md` / `CODEX-HANDOFF.md`, commit the scoped
+- After adding or updating `AGENTS.md` / `.codex/handoff.md`, commit the scoped
   change and push it to `main`.
